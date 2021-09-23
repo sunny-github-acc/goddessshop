@@ -1,0 +1,41 @@
+import { ThemeInterface } from './../../types/themeTypes'
+
+export const defaultTheme: ThemeInterface = {
+  theme: 'defaultTheme',
+  colors: {
+    primary: 'white',
+    primary10: 'white',
+    primary20: 'white',
+    primary30: 'white',
+    secondary: 'white',
+    secondary10: 'white',
+    secondary20: 'white',
+    secondary30: 'white',
+    tertiary: 'white',
+    grey: '#808080',
+    grey05: '#9A9A9A',
+    grey10: '#B1B1B1',
+    grey20: '#CBCBCB',
+    grey30: '#E7E7E7',
+    grey40: '#F2F2F2',
+    white: '#FFFFFF',
+    white10: 'black',
+    white20: '#FAFAFA',
+    white30: '#F7F7F7',
+    white40: '#F5F5F5',
+    transparent: 'transparent',
+  },
+  height: { s: '50px' },
+  borderRadius: '4px',
+  fonts: {
+    weight: { bold: '700', regular: '100' },
+    size: {
+      xxl: '3rem',
+      xl: '2rem',
+      l: '1.5rem',
+      m: '1rem',
+      s: '20px',
+      xs: '15px',
+    },
+  },
+}
